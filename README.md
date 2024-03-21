@@ -59,4 +59,4 @@ Uygulama kullanıcıdan bir adet sayı girmesini ister ve girilen sayının ARMS
 
 -        153 Sayısı = 1*1*1 + 5*5*5 + 3*3*3 = 153
                         3   +  125  +   27  = 153
-         Bu Sayı Bir ARMSTRONG SAYISIDIR.
+         Bu Sayı Bir ARMSTRONG SAYISIDIR. 
