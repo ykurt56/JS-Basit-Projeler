@@ -1,9 +1,18 @@
-let sayac = 1;
-let toplam = 0;
-do {
-  if (sayac % 2 == 1) {
-    toplam += sayac;
+//? ASAL SAYI BULMA UYGULAMASI
+alert("Bu uygulama Girilen Sayının Asal Olup veya Olmadığını Kontrol Eder.");
+let sayi = Number(prompt("Lütfen Bir Sayı Giriniz:"));
+
+let sonuc = true;
+
+for (let i = 2; i <= Math.floor(sayi / 2); i++) {
+  if (sayi % i == 0) {
+    sonuc = false;
+    break;
   }
-  sayac++;
-} while (sayac <= 20);
-console.log("Toplam :", toplam);
+}
+
+if (sonuc) {
+  alert(sayi + " Sayısı Asal Bir Sayıdır.");
+} else {
+  alert(sayi + " Sayısı Asal Bir Sayı Değildir.");
+}
